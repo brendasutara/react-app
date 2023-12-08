@@ -43,6 +43,10 @@
     width: 70%;
     /*   height: 100%; */
   }
+
+  .todo-item .p--completed {
+    text-decoration: line-through;
+  }
   
   .todo-item .close-item {
     background: url("./assets/x.svg") no-repeat;
