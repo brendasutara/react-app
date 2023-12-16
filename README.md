@@ -1,6 +1,4 @@
-# No te vayas a impresionar mucho.
-
-¡Hola, Noe y Agus! Disfruten la lectura.
+# Hola, gracias por llegar hasta aqui y ver mi app 🙌
 
 ## Getting Started with Create React App
 
