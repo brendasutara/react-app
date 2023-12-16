@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React from "react";
 import { AppUI } from './AppUI.js';
 import { useLocalStorage } from './useLocalStorage.js';
 
-/* const defaultTodos = [
+/* localStorage.removeItem( itemName);
+  const defaultTodos = [
   { text: 'Cortar cebolla', completed: true },
   { text: 'Cortar pimiento', completed: true },
   { text: 'Cortar zanahoria', completed: false },
@@ -10,11 +11,15 @@ import { useLocalStorage } from './useLocalStorage.js';
   { text: 'Comer', completed: false },
 ];
 
-localStorage.setItem( itemName, JSON.stringify(defaultTodos));
-localStorage.removeItem( itemName); */
+localStorage.setItem( itemName, JSON.stringify(defaultTodos)); */
 
 function App() {
-  const [todos, saveTodos] = useLocalStorage('TODOS_v1', []);
+  const {
+    item: todos,
+    saveItem: saveTodos,
+    loading,
+    error,
+  } = useLocalStorage('TODOS_v1', []);
   const [searchValue, setSearchValue] = React.useState('');
 
   const completedTodos = todos.filter(
@@ -50,6 +55,8 @@ function App() {
 
   return (
     <AppUI
+      loading={loading}
+      error={error}
       completedTodos = {completedTodos}
       totalTodos = {totalTodos}
       searchValue = {searchValue}
