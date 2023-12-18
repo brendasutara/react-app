@@ -1,16 +1,3 @@
-/* import React from 'react';
-import './EmptyTodos.css';
-
-function EmptyTodos() {
-  return (
-    <div className='containerEmpty'>
-      <p className='EmptyTodos'>¡Crea tu primer to do!</p>
-    </div>
-  );
-}
-
-export { EmptyTodos }; */
-
 import React from 'react';
 import './EmptyTodos.css';
 import Icon from '../assets/flecha-down-right.svg'; // Ruta relativa al archivo SVG
