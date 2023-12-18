@@ -23,13 +23,13 @@ Esta aplicación permite a los usuarios gestionar sus tareas diarias de manera e
 A continuación, se muestran algunas capturas de pantalla de la aplicación:
 
 ### Pantalla Principal
-![Pantalla Principal](src\assets\to-do-app-terminada\to-do-app--1.png)
+![Pantalla Principal](https://i.imgur.com/h6Li3Dq.png)
 
 ### Agregar Tarea
-![Agregar Tarea](src\assets\to-do-app-terminada\to-do-app--create2.png)
+![Agregar Tarea](https://i.imgur.com/WEYM1ye.png)
 
 ### Lista de Tareas Completadas
-![Tareas Completadas](src\assets\to-do-app-terminada\to-do-app--2.png)
+![Tareas Completadas](https://i.imgur.com/qb7Dugr.png)
 
 ## Enlace a la Aplicación
 
