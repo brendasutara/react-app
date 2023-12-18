@@ -22,14 +22,18 @@ Esta aplicación permite a los usuarios gestionar sus tareas diarias de manera e
 
 A continuación, se muestran algunas capturas de pantalla de la aplicación:
 
-### Pantalla Principal
-![Pantalla Principal](https://i.imgur.com/h6Li3Dq.png)
+<div style="display: flex; justify-content: center;">
+  <div style="flex: 1; padding: 10px;">
+    <img src="https://i.imgur.com/h6Li3Dq.png" alt="Pantalla Principal" width="32%">
+  </div>
+  <div style="flex: 1; padding: 10px;">
+    <img src="https://i.imgur.com/WEYM1ye.png" alt="Agregar Tarea" width="32%">
+  </div>
+  <div style="flex: 1; padding: 10px;">
+    <img src="https://i.imgur.com/qb7Dugr.png" alt="Tareas Completadas" width="32%">
+  </div>
+</div>
 
-### Agregar Tarea
-![Agregar Tarea](https://i.imgur.com/WEYM1ye.png)
-
-### Lista de Tareas Completadas
-![Tareas Completadas](https://i.imgur.com/qb7Dugr.png)
 
 ## Enlace a la Aplicación
 
