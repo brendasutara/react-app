@@ -1,67 +1,46 @@
-# Hola, gracias por llegar hasta aqui y ver mi app 🙌
+# To-Do List App ✅
 
-## Getting Started with Create React App
+Esta es una aplicación simple de lista de tareas creada con React. Este proyecto fue el resultado final del curso de React.js de [Platzi](https://platzi.com/cursos/react/) dictado por [Juan David Castro Gallego](https://github.com/juandc).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descripción
 
-## Available Scripts
+Esta aplicación permite a los usuarios gestionar sus tareas diarias de manera eficiente. Puedes agregar, marcar como completadas y eliminar tareas de tu lista.
 
-In the project directory, you can run:
+## Funcionalidades
 
-### `npm start`
+- **Agregar Tareas:** Añade nuevas tareas a tu lista.
+- **Marcar como Completadas:** Marca las tareas como completadas cuando finalices.
+- **Eliminar Tareas:** Elimina las tareas que ya no necesitas.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tecnologías Utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React:** Utilizado como framework principal para la construcción de la aplicación.
+- **HTML/CSS:** Para la estructura y estilos de la interfaz.
+- **LocalStorage:** Almacenamiento local para guardar las tareas.
 
-### `npm run build`
+## Capturas de Pantalla
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A continuación, se muestran algunas capturas de pantalla de la aplicación:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Pantalla Principal
+![Pantalla Principal](https://drive.google.com/file/d/1c7MlqLBfgIxe2yFZPP0Gvke8f28MoAWp/view?usp=sharing)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Agregar Tarea
+![Agregar Tarea](https://drive.google.com/file/d/1ydlMB3OanmdYdaJr9SH7-Me1wAo0bpd0/view?usp=sharing)
 
-### `npm run eject`
+### Lista de Tareas Completadas
+![Tareas Completadas](https://drive.google.com/file/d/15lvS3NowtqUTnd4HGw1Lku8HZFER8-rd/view?usp=sharing)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Instrucciones de Uso
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clona el repositorio.
+2. Instala las dependencias con `npm install`.
+3. Ejecuta la aplicación con `npm start`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contribución
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Si quieres contribuir a este proyecto, siéntete libre de hacer un fork y enviar un pull request.
 
-## Learn More
+## Autor
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Este proyecto fue creado como parte del curso de [React.js de Platzi](https://platzi.com/cursos/react/) impartido por [Juan David Castro Gallego](https://github.com/juandc).
