@@ -23,13 +23,17 @@ Esta aplicación permite a los usuarios gestionar sus tareas diarias de manera e
 A continuación, se muestran algunas capturas de pantalla de la aplicación:
 
 ### Pantalla Principal
-![Pantalla Principal](https://drive.google.com/file/d/1c7MlqLBfgIxe2yFZPP0Gvke8f28MoAWp/view?usp=sharing)
+![Pantalla Principal](src\assets\to-do-app-terminada\to-do-app--1.png)
 
 ### Agregar Tarea
-![Agregar Tarea](https://drive.google.com/file/d/1ydlMB3OanmdYdaJr9SH7-Me1wAo0bpd0/view?usp=sharing)
+![Agregar Tarea](src\assets\to-do-app-terminada\to-do-app--create2.png)
 
 ### Lista de Tareas Completadas
-![Tareas Completadas](https://drive.google.com/file/d/15lvS3NowtqUTnd4HGw1Lku8HZFER8-rd/view?usp=sharing)
+![Tareas Completadas](src\assets\to-do-app-terminada\to-do-app--2.png)
+
+## Enlace a la Aplicación
+
+Puedes visualizar la aplicación desplegada [aquí](https://brendasutara.github.io/react-app/).
 
 ## Instrucciones de Uso
 
