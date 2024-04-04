@@ -2,7 +2,8 @@
     background-color: #48426D;
     border-radius: 10px;
     list-style: none;
-    height: 4rem;
+    min-height: 4rem;
+    height: auto;
     margin: 0.4rem 0;
     position: relative;
     display: flex;
