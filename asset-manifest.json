@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/react-app/static/css/main.f5911f9f.css",
-    "main.js": "/react-app/static/js/main.8c731e55.js",
+    "main.css": "/react-app/static/css/main.f09f852c.css",
+    "main.js": "/react-app/static/js/main.0d58c4d5.js",
+    "static/media/flecha-down-right.svg": "/react-app/static/media/flecha-down-right.180662e42d03956475463cba37786967.svg",
     "index.html": "/react-app/index.html",
     "static/media/x-yellow.svg": "/react-app/static/media/x-yellow.05128625bcb7f5dc8833.svg",
     "static/media/circle-check.svg": "/react-app/static/media/circle-check.6ec7f5b29ea3e2fe8a95.svg",
     "static/media/circle.svg": "/react-app/static/media/circle.fa43089c4ab4c00379c4.svg",
     "static/media/x.svg": "/react-app/static/media/x.eb0580540d6e03cd2d52.svg",
-    "main.f5911f9f.css.map": "/react-app/static/css/main.f5911f9f.css.map",
-    "main.8c731e55.js.map": "/react-app/static/js/main.8c731e55.js.map"
+    "main.f09f852c.css.map": "/react-app/static/css/main.f09f852c.css.map",
+    "main.0d58c4d5.js.map": "/react-app/static/js/main.0d58c4d5.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5911f9f.css",
-    "static/js/main.8c731e55.js"
+    "static/css/main.f09f852c.css",
+    "static/js/main.0d58c4d5.js"
   ]
 }
