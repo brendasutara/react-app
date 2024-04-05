@@ -1,9 +1,7 @@
 import React from "react";
 import "./TodoForm.css";
-import { TodoContext } from "../TodoContext/index.js";
 
-function TodoForm() {
-  const { addTodo, setOpenModal } = React.useContext(TodoContext);
+function TodoForm({ addTodo, setOpenModal }) {
   const [newTodoValue, setNewTodoValue] = React.useState("");
   const [error, setError] = React.useState(null); // Estado para manejar el error
 
