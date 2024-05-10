@@ -1,0 +1,28 @@
+.containerEmpty {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  max-width: 100%;
+  box-sizing: border-box;
+  height: 400px;
+}
+
+.EmptyTodos {
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+  padding: 48px;
+  font-weight: normal;
+}
+
+.Icon {
+  width: 50px; 
+  height: 50px;
+  margin-top: 16px;
+  fill: white;
+}
+  
+  

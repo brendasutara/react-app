@@ -11,6 +11,8 @@ import { CreateTodoButton } from "../Components/CreateTodoButton/index.js";
 import { Modal } from "../Components/Modal/index.js";
 import { TodoForm } from "../TodoForm/index.js";
 import { TodoHeader } from "../TodoHeader/index.js";
+import { EmptySearchResults } from "../EmptySearchResults/index.js";
+import { ChangeAlert } from "../ChangeAlert/index.js";
 
 function App() {
   const {
@@ -26,21 +28,40 @@ function App() {
     searchValue,
     setSearchValue,
     addTodo,
+    searchText,
+    sincronizeTodos,
   } = useTodos();
 
   return (
     <>
-      <TodoHeader>
+      <TodoHeader loading={loading}>
         <TodoCounter totalTodos={totalTodos} completedTodos={completedTodos} />
         <TodoSearch searchValue={searchValue} setSearchValue={setSearchValue} />
       </TodoHeader>
 
-      <TodoList>
-        {loading && <TodosLoading />}
-        {error && <TodosError />}
-        {!loading && searchedTodos.length === 0 && <EmptyTodos />}
-
-        {searchedTodos.map((todo) => (
+      <TodoList
+        //propiedades
+        error={error}
+        loading={loading}
+        searchedTodos={searchedTodos}
+        totalTodos={totalTodos}
+        searchText={searchText}
+        // render props
+        onError={() => <TodosError />}
+        onLoading={() => <TodosLoading />}
+        onEmptyTodos={() => <EmptyTodos />}
+        onEmptySearchResults={() => <EmptySearchResults />}
+        // render={(todo) => (
+        //   <TodoItem
+        //     key={todo.text}
+        //     text={todo.text}
+        //     completed={todo.completed}
+        //     onComplete={() => completeTodos(todo.text)}
+        //     onDelete={() => deleteTodos(todo.text)}
+        //   />
+        // )}
+      >
+        {(todo) => (
           <TodoItem
             key={todo.text}
             text={todo.text}
@@ -48,16 +69,18 @@ function App() {
             onComplete={() => completeTodos(todo.text)}
             onDelete={() => deleteTodos(todo.text)}
           />
-        ))}
+        )}
       </TodoList>
 
       <CreateTodoButton setOpenModal={setOpenModal} />
 
-      {openModal && (
+      {!!openModal && (
         <Modal>
-          <TodoForm addTodo={addTodo} />
+          <TodoForm addTodo={addTodo} setOpenModal={setOpenModal} />
         </Modal>
       )}
+
+      <ChangeAlert sincronize={sincronizeTodos} />
     </>
   );
 }
