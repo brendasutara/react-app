@@ -4,7 +4,7 @@ import { useLocalStorage } from "./useLocalStorage";
 //vamos a hacer un custom hook
 function useTodos() {
   const {
-    item: todos,
+    item: todos = [],
     saveItem: saveTodos,
     sincronizeItem: sincronizeTodos,
     loading,
