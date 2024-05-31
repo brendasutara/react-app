@@ -15,22 +15,27 @@ import { EmptySearchResults } from "../EmptySearchResults/index.js";
 import { ChangeAlert } from "../ChangeAlert/index.js";
 
 function App() {
+  const { state, stateUpdaters } = useTodos();
+
   const {
     loading,
     error,
+    completedTodos,
+    totalTodos,
+    searchValue,
     searchedTodos,
+    openModal,
+    searchText,
+  } = state;
+
+  const {
+    setSearchValue,
     completeTodos,
     deleteTodos,
-    openModal,
     setOpenModal,
-    totalTodos,
-    completedTodos,
-    searchValue,
-    setSearchValue,
     addTodo,
-    searchText,
     sincronizeTodos,
-  } = useTodos();
+  } = stateUpdaters;
 
   return (
     <>
@@ -51,15 +56,6 @@ function App() {
         onLoading={() => <TodosLoading />}
         onEmptyTodos={() => <EmptyTodos />}
         onEmptySearchResults={() => <EmptySearchResults />}
-        // render={(todo) => (
-        //   <TodoItem
-        //     key={todo.text}
-        //     text={todo.text}
-        //     completed={todo.completed}
-        //     onComplete={() => completeTodos(todo.text)}
-        //     onDelete={() => deleteTodos(todo.text)}
-        //   />
-        // )}
       >
         {(todo) => (
           <TodoItem
